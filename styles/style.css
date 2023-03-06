@@ -168,18 +168,17 @@ img{
 
 @media (max-width: 1200px) {
     .cabecalho{
-        width: auto;
-        padding: 2% 10% 2% 10%;      
-        
+        padding: 2% 10% 2% 10%;        
     }
     .cabecalho__menu{
-       width: auto;      
-       justify-content: center;
-       row-gap: auto;
-
+       justify-content:space-between;
+       gap: 0;                
+       
     }
     .cabecalho__menu__link{
        width: auto;
+       justify-content: space-between;
+       text-align: center;
     }
     .apresentacao{
         flex-direction: column-reverse;
